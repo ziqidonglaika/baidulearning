@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>task1_2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="niesu08@163.com" />
+<style type="text/css">
+#container{
+	background-color:#D8D8D8;
+	width:1500px;
+	height: 4800px;
+	margin:0 auto;
+
+}  
+#header{
+	background-color: #202020;
+	width:1495px;
+	height: 80px;
+}
+#header li{
+  float:right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.level1{position: relative;
+  left: 30px;padding-top: 60px;}
+.level2{position: relative;
+  left: 30px;}
+.level3{position: relative;
+  left: 30px;}
+#first{                 <!--为什么和下面几个div设置的一样却无法和header这个div隔开？-->
+		border-top-style: thick solid ;
+		border-top-color:#505050;
+		border-right-style: ridge;
+    border-right-color:#505050;
+		border-bottom-style: ridge;
+		border-left-style: thick solid;
+	  background-color: white;
+	  width:1460px;
+	  height: 940px;
+	  margin-top: 20px;
+	  margin-left: 18px;
+	  margin-bottom: 12px;
+
+}
+#sec{
+	  border-top-style: thick solid ;
+		border-top-color:#505050;
+		border-right-style: ridge;
+    border-right-color:#505050;
+		border-bottom-style: ridge;
+		border-left-style: thick solid;
+	  background-color: white;
+	  margin-top: 20px;
+	  margin-left: 18px;
+	  margin-bottom: 12px;
+	  width:1460px;
+	  height: 900px;
+}
+#third{
+	  border-top-style: thick solid ;
+		border-top-color:#505050;
+		border-right-style: ridge;
+    border-right-color:#505050;
+		border-bottom-style: ridge;
+		border-left-style: thick solid;
+	  background-color: white;
+	  margin-top: 20px;
+	  margin-left: 18px;
+	  margin-bottom: 12px;
+	  width:1460px;
+	  height: 1200px;
+}
+.pic{
+	margin-right: 1110px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+  border-style: solid; border-width: 1px;
+  padding: 11px;
+}
+.pic p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align:center;
+}
+#forth{
+		border-top-style: thick solid ;
+		border-top-color:#505050;
+		border-right-style: ridge;
+    border-right-color:#505050;
+		border-bottom-style: ridge;
+		border-left-style: thick solid;
+	  background-color: white;
+	  margin-top: 20px;
+	  margin-left: 18px;
+	  margin-bottom: 12px;
+	  width:1460px;
+	  height: 520px;
+}
+#forth table{
+  border-collapse:collapse;
+  border: 1px solid #A0A0A0;
+  width: 96%;
+  margin:0 auto;
+}
+#forth td{
+    border: 1px solid #A0A0A0;
+}
+#forth th{
+    border: 1px solid #A0A0A0;
+    background-color: black;
+    color: white;
+}
+
+#fifth{
+    border-top-style: thick solid ;
+    border-top-color:#505050;
+    border-right-style: ridge;
+    border-right-color:#505050;
+    border-bottom-style: ridge;
+    border-left-style: thick solid;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 12px;
+    width:1460px;
+    height: 800px;
+}
+</style>
+</head>
+    <body>	
+<div id="container" >
+
+  <div id="header">
+    		<img src="./百度logo.gif" width="120px"  height="70px"  align="left"/>
+    		<ul id="nav">        
+                 	<li><a href="#" style="color: #C0C0C0">导航链接4</a></li> 
+                 	<li><a href="#">导航链接3</a></li>
+                 	<li><a href="#">导航链接2</a></li>
+                 	<li><a href="#">导航链接1</a></li>    
+        </ul>
+  </div>	
+
+  <div id="first">
+    	<h1 class="level1">文章一级标题</h1>
+    	<h2 class="level2">文章2级标题</h2>
+    	<h3 class="level3">文章作者 文章发表时间</h3>
+    	<p style="text-indent:2em">
+    	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="https://ife.baidu.com">ife.baidu.com</a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+    	</p>
+    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg">
+    	<p style="text-indent:2em">
+    	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+    	</p>
+  </div>	
+
+  <div id="sec">
+    	<h1 class="level1">另一个文章一级标题</h1>
+    	<h2 class="level2">文章2级标题</h2>
+    	<h3 class="level3">文章作者 文章发表时间</h3>
+    	<p style="text-indent:2em">
+    	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+    	</p>
+    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg">
+    	<ul style="list-style:none">
+    		<li>列表1</li>
+    		<li>列表2</li>
+    		<li>列表3</li>
+    	</ul>
+  </div>	
+
+  <div id="third">
+    	<h1 class="level1">图片</h1>
+
+    	<div class="pic">
+    		<p>好看的图片</p><br/>
+    	<img src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif">
+        </div>
+
+        <div class="pic">
+    		<p>好看的图片</p><br/>
+    	<img src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif">
+        </div>
+
+        <div class="pic">
+    		<p>好看的图片</p><br/>
+    	<img src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif">
+        </div>
+  </div>	
+
+  <div id="forth">
+    	
+    	<h1 class="level1">最后文章一级标题</h1>
+    	<h2 class="level2">最后二级标题</h2>
+    	<h3 class="level3">editor punish time</h3>
+    	<ol style="position: relative;left: 30px;">
+         <li>咖啡</li>
+         <li>牛奶</li>
+         <li>茶</li>
+      </ol>
+      <p style="text-indent:2em">this is a table,add a border=1 to help you figure out it's a table</p>
+        <table>
+          <tr>
+          <th>表头</th>
+          <th>表土</th>
+          <th>表土</th>
+           </tr>
+          <tr>
+          <td>100</td>
+          <td>200</td>
+          <td><a href="#">操作</a></td>
+           </tr>
+          <tr>    
+          <td>300</td>
+          <td>400</td>
+          <td><a href="#">操作</a></td>
+             </tr>
+          <tr>    
+          <td  colspan="3" style="background-color:#C0C0C0">总计</td>
+             </tr>
+        </table>
+  </div>	
+
+  <div id="fifth">
+       <h2 class="level2" style="padding-top: 50px">这里以后是一个侧栏，这是侧栏的标题</h2>
+       <p id="fp"> <center>
+          <form style="line-height:40px">请输入邮箱地址：<input type="text" name="请输入密码" placeholder="这是一个文本输入框"/><br/></form>
+
+          <span style="color: gray;font-size: 90%;padding-left: 154px;">邮箱地址请按要求格式输入</span><br/>
+
+          <form style="padding-top:30px">请重复输入密码：<input type="text" name="请输入密码" placeholder="********"/></form><br/>
+
+          <form >请重复输入密码：<input type="text" name="请重复输入密码" placeholder="********"/></form><br/>
+
+          <span style="color: gray;font-size: 90%;padding-left: 138px;">密码请为6-16位英文数字</span>
+           
+          <form style="line-height:40px;padding-left: 80px">性别
+            <input type="radio" name="sex" value="male" /> Male
+             <input type="radio" name="sex" value="female" /> Female<br/>
+          </form>
+
+             <td><form style="line-height:40px;padding-right: 20px">城市
+             <select name="地点">
+             <option value="北京">北京</option>
+             <option value="上海">上海</option>
+             <option value="广州">广州</option>
+             <option value="深圳">深圳</option>
+             </select>
+             </form></td><br/>
+
+             <td><form>爱好
+             <input type="checkbox" name="运动" />运动
+             <input type="checkbox" name="艺术" />艺术
+             <input type="checkbox" name="科学" />科学
+             </form></td><br/>
+
+              <span style="padding-left: 580px">个人描述:</span> 
+             <textarea rows="7" cols="80">请在这里输入个人描述</textarea><br/>
+             
+          <button type="button" value="Submit" style="background-color: blue;color: white;border:2px thick solid #a1a1a1;width: 1400px;height: 50px;border-radius:10px;">提交</button>
+          <br/>
+         版权所有&copy 
+       </p></<center>
+
+  </div>	
+
+</div>	
+
+</body>
+</html>
