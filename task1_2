@@ -124,7 +124,12 @@
     margin-left: 18px;
     margin-bottom: 12px;
     width:1460px;
-    height: 800px;
+    height: 700px;
+}
+#footer{
+  background-color: #202020;
+  width:1495px;
+  height: 80px;
 }
 </style>
 </head>
@@ -259,11 +264,16 @@
              
           <button type="button" value="Submit" style="background-color: blue;color: white;border:2px thick solid #a1a1a1;width: 1400px;height: 50px;border-radius:10px;">提交</button>
           <br/>
-         版权所有&copy 
+         
        </p></<center>
 
   </div>	
-
+  <div id="footer">
+    <center>
+      <span style="line-height: 80px;color:white;font-size: 90%">版权所有&copy </span>
+    </center>
+    
+  </div>
 </div>	
 
 </body>
