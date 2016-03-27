@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>task1_3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="niesu08@163.com" />
+<style type="text/css">
+#container{
+	background-color: #eee;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 1000px;<!--记得去掉，需要用子元素的最高度-->
+}
+#lft{
+	float: left;
+	width: 200px;
+	height: 0 auto;
+    background-color: white;
+    border: 1px solid #999;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-bottom: 20px;
+	
+}
+#lft img{
+	margin-top: 20px;
+	margin-left: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	float: left;
+}
+#rght{
+	float: right;
+	width: 120px;
+	height: 0 auto;
+	margin: 20px;
+    background-color: white;
+    border: 1px solid #999;
+	padding-bottom: 20px;
+}
+#rght img{
+	margin-top: 20px;
+	margin-left: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+}
+#mddl{
+	padding:20px;
+    background-color: white;
+	border: 1px solid #999;
+	height: 0 auto;
+	margin-right: 180px;
+	position: absolute;left:260px;top: 40px;
+}
+
+
+</style>
+</head>
+    <body>
+<div id="container">
+  <div id="lft">
+	 <img src="https://img3.doubanio.com/view/photo/photo/public/p2327144045.jpg">	
+	 <span style="float:left;margin-top:20px;margin-left:20px;">小白团队</span>
+  </div>
+
+  <div id="rght">
+	 <img src="https://img3.doubanio.com/view/photo/photo/public/p2327144045.jpg">	
+	 <img src="https://img3.doubanio.com/view/photo/photo/public/p2327144045.jpg">	
+	 <img src="https://img3.doubanio.com/view/photo/photo/public/p2327144045.jpg">	
+	 <img src="https://img3.doubanio.com/view/photo/photo/public/p2327144045.jpg">	
+  </div>
+
+
+  <div id="mddl">
+	 <span>一直觉得便利店最能体现城市气息。二十四小时不歇业，所有生活需求在这里得到满足，上到扑克牌卫生纸隐形眼镜护理液旅行装牙刷，下到泡菜泡面关东煮五颜六色的饮品。路灯、红绿灯、便利店里的白色灯光。城市永不睡去，在这里看得分明。<br/>首尔便利店密度极大，几乎是三步一个。便利店里和我们卖得不一样的，大概是许多种类型的泡面和酒了。<br/>酒和泡面是韩国人生活的典型日常。不管你是学生还是白领，都避不开两轮的应酬。第一轮，正餐；第二轮，喝酒。无非是烧酒和啤酒，最高不过十五度而已！却必须喝得醉醺醺，前辈不走自己不能走，到深夜都散不去。于是首尔街头才有了那些醉汉，躺在地上的有之，站在路灯边嗷嗷叫的有之。酒量醒了，肚空了，再进便利店买些辛拉面，热腾腾地吃到肚子里去。<br/>《奶酪陷阱》里我很喜欢的一个画面，便是刘正学长跟随洪雪一路走在阳光里的场景。小小的街道，利落的街边小咖啡店（感觉像是在北村那边的街区）。满怀心事的女孩走在夕阳的柔光下，不放心的长腿学长跟在身后。在钢琴带出女声的bgm中，他的目光停留在女孩纤细的手腕上。还有比这更让人心旌荡漾、觉得生活美好的事情吗？</span>
+  </div>
+
+</div>
+    </body>
+</html>
