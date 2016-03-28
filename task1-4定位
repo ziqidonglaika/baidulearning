@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>task1_3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="niesu08@163.com" />
+<style type="text/css">
+div{
+	height: 200px;
+	width: 400px;
+	background-color: #ccc;
+	position: absolute;left:50%;top:50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+}
+#left{
+	height: 50px;
+	width: 50px;
+	background-color:#fc0;
+	border-bottom-right-radius: 50px;
+	border-style:none;
+
+}
+#right{
+	position: relative;left: 550px;top: 250px;
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+	border-top-left-radius: 50px;
+	border-style:none;
+}
+</style>
+</head>
+    <body>
+    	<div>
+     	   <div id="left" ></div>
+     	   <div id="right"></div>
+        </div>
+    </body>
+</html>
