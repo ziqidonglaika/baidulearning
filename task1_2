@@ -8,7 +8,7 @@
 #container{
 	background-color:#D8D8D8;
 	width:1500px;
-	height: 4800px;
+	height: 4550px;
 	margin:0 auto;
 
 }  
@@ -150,11 +150,11 @@
     	<h1 class="level1">文章一级标题</h1>
     	<h2 class="level2">文章2级标题</h2>
     	<h3 class="level3">文章作者 文章发表时间</h3>
-    	<p style="text-indent:2em">
+    	<p style="text-indent:2em;padding-left: 20px">
     	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="https://ife.baidu.com">ife.baidu.com</a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
     	</p>
-    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg">
-    	<p style="text-indent:2em">
+    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg" style="padding-left: 20px">
+    	<p style="text-indent:2em;padding-left: 20px">
     	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
     	</p>
   </div>	
@@ -163,10 +163,10 @@
     	<h1 class="level1">另一个文章一级标题</h1>
     	<h2 class="level2">文章2级标题</h2>
     	<h3 class="level3">文章作者 文章发表时间</h3>
-    	<p style="text-indent:2em">
+    	<p style="text-indent:2em;padding-left: 20px">
     	 公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
     	</p>
-    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg">
+    	<img src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg" style="padding-left: 20px">
     	<ul style="list-style:none">
     		<li>列表1</li>
     		<li>列表2</li>
