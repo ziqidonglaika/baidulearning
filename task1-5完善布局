@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>task1_5</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+#container{
+  background-color:#D8D8D8;
+  height: 100%;
+  margin:0 auto;
+
+}  
+#header{
+  background-color: #202020;
+  width:100%;
+  height: 80px;
+}
+#header li{
+  float:right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.level1{position: relative;
+  left: 30px;padding-top: 60px;}
+.level2{position: relative;
+  left: 30px;}
+.level3{position: relative;
+  left: 30px;}
+body{
+  width: 100%；
+  float:left;
+}
+#sidebar{
+    float: right;
+    border-top-style: thick solid ;
+    border-top-color:#505050;
+    border-right-style: ridge;
+    border-right-color:#505050;
+    border-bottom-style: ridge;
+    border-left-style: thick solid;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 22px;
+    margin-bottom: 12px;
+    width:420px;
+    height: 700px;
+}
+#part{
+line-height: 30px;
+}
+#first,#sec,#third,#forth{          
+    border-top-style: thick solid ;
+    border-top-color:#505050;
+    border-right-style: ridge;
+    border-right-color:#505050;
+    border-bottom-style: ridge;
+    border-left-style: thick solid;
+    background-color: white; 
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 460px;
+    margin-bottom: 12px;
+
+}
+
+#sec{float: left;}
+.jetli{width:auto;height:auto;max-width:90%;max-height:90%;}
+#third{float: left;}
+.pic{
+  float: left;
+  height:280px;
+  width: 280px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  border-style: solid; border-width: 1px;
+}
+
+.pic span{
+  display: block;
+  margin-top: 10px;
+  text-align:center;
+}
+#forth{float: left;}
+
+#forth table{
+  border-collapse:collapse;
+  border: 1px solid #A0A0A0;
+  width: 96%;
+  margin:0 auto;
+}
+#forth td{
+    border: 1px solid #A0A0A0;
+}
+#forth th{
+    border: 1px solid #A0A0A0;
+    background-color: black;
+    color: white;
+}
+
+#footer{
+  clear: both;
+  background-color: #202020;
+  width:100%;
+  height: 80px;
+}
+</style>
+</head>
+    <body>  
+
+<div id="container" >
+
+  <div id="header">
+        <img src="./百度logo.gif" width="120px"  height="70px"  align="left"/>
+        <ul id="nav">        
+                  <li><a href="#" style="color: #C0C0C0">导航链接4</a></li> 
+                  <li><a href="#">导航链接3</a></li>
+                  <li><a href="#">导航链接2</a></li>
+                  <li><a href="#">导航链接1</a></li>    
+        </ul>
+  </div>  
+
+<div id="sidebar">
+      <h2 class="level2" style="padding-top: 50px">这是侧栏的标题</h2>
+      <form action="#">
+      <div id="part" style="margin-left: 30px;">
+          <div class="choice">
+          <label for="email">请输入邮箱地址：</label>
+              <input id="email" type="text" placeholder="这是一个文本输入框"><br/>
+              <span class="tipped" style="margin-top: 10px;color: gray;font-size: 90%;padding-left: 130px;">邮箱地址请按格式输入</span><br/>
+          </div>
+
+          <div class="choice" style="margin-top: 10px">
+          <label for="password" style="line-height: 40px;padding-left: 30px">请输入密码：</label>
+              <input type="password" id="password" placeholder="********"><br/>
+
+          <label for="password">请重复输入密码：</label>
+              <input type="password" id="password" placeholder="********"><br/>
+              <span class="tipped" style="color: gray;font-size: 90%;padding-left: 130px">密码请为6-16位英文数字</span><br/>
+          </div> 
+
+          <div class="choice"style="padding-left:90px">
+          <form>性别&nbsp
+            <input type="radio" name="sex" value="male" /> Male
+             <input type="radio" name="sex" value="female" /> Female<br/>
+          </form>
+             <td>城市&nbsp&nbsp
+             <select name="地点">
+             <option value="北京">北京</option>
+             <option value="上海">上海</option>
+             <option value="广州">广州</option>
+             <option value="深圳">深圳</option>
+             </select>
+             </td><br/>
+           </div>
+           <div style="padding-left:90px">
+             <td>爱好&nbsp
+             <input type="checkbox" name="运动" />运动
+             <input type="checkbox" name="艺术" />艺术
+             <input type="checkbox" name="科学" />科学
+             </td><br/>
+          </div>
+      
+
+          <div style="margin-top: 20px"><span style="padding-left: 20px">个人描述:</span> 
+             <textarea rows="6" cols="30">请在这里输入个人描述</textarea><br/>
+          </div>  
+          
+          <div style="margin-top: 20px;padding-left: 20px">
+          <button type="button" value="Submit" style="background-color: blue;color: white;border:2px thick solid #a1a1a1;width: 350px;height: 50px;border-radius:15px;">提交</button>
+          </div>
+      </div>
+          <br/>
+         
+      </form>
+
+  </div>  
+
+  <div id="first">
+      <h1 class="level1">文章一级标题</h1>
+      <h2 class="level2">文章2级标题</h2>
+      <h3 class="level3">文章作者 文章发表时间</h3>
+      <p style="text-indent:2em;padding-left: 20px;padding-right:20px ">
+       公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="https://ife.baidu.com">ife.baidu.com</a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+      </p>
+      <img class="jetli" src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg" style="padding-left: 20px;padding-right:20px;">
+      <p style="text-indent:2em;padding-left: 20px;padding-right:20px ">
+       公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+      </p>
+  </div>  
+
+  <div id="sec">
+      <h1 class="level1">另一个文章一级标题</h1>
+      <h2 class="level2">文章2级标题</h2>
+      <h3 class="level3">文章作者 文章发表时间</h3>
+      <p style="text-indent:2em;padding-left: 20px;padding-right:20px">
+       公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<br/>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。大约公元前6000年，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。<a href="http:ife.baidu.com"></a>从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。<strong>大约公元前6000年</strong>，人类开始在尼罗河定居。在公元前3000年，即距今5000年前古埃及人在尼罗河流域建立了第一个王朝。从公元前2600年古埃及建立第三个王朝开始，这里就在之后1000年的时间里修建了金字塔群。
+      </p>
+      <img class="jetli" src="https://img1.doubanio.com/view/photo/photo/public/p1155889118.jpg" style="padding-left: 20px;padding-right:20px">
+      <ul style="list-style:none">
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+      </ul>
+  </div>  
+
+  <div id="third">
+      <h1 class="level1">图片</h1>
+
+      <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+
+        <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+
+        <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+
+        <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+
+        <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+
+        <div class="pic">
+        <span>好看的图片</span><br/>
+      <img class="picone" src="http://img5.duitang.com/uploads/item/201307/22/20130722192550_4tWsr.thumb.224_0.gif" style="margin-left: 27px" >
+        </div>
+  </div>  
+
+<div id="forth">
+      
+      <h1 class="level1">最后文章一级标题</h1>
+      <h2 class="level2">最后二级标题</h2>
+      <h3 class="level3">editor punish time</h3>
+      <ol style="position: relative;left: 30px;">
+         <li>咖啡</li>
+         <li>牛奶</li>
+         <li>茶</li>
+      </ol>
+      <p style="text-indent:2em">this is a table,add a border=1 to help you figure out it's a table</p>
+        <table>
+          <tr>
+          <th>表头</th>
+          <th>表格</th>
+          <th>表格</th>
+           </tr>
+          <tr>
+          <td>100</td>
+          <td>200</td>
+          <td><a href="#">操作</a></td>
+           </tr>
+          <tr>    
+          <td>300</td>
+          <td>400</td>
+          <td><a href="#">操作</a></td>
+             </tr>
+          <tr>    
+          <td  colspan="3" style="background-color:#C0C0C0">总计</td>
+             </tr>
+        </table>
+  </div>  
+
+  
+  <div id="footer">
+    <center>
+      <span style="line-height: 80px;color:white;font-size: 90%">版权所有&copy </span>
+    </center>
+    
+  </div>
+</div>  
+
+</body>
+</html>
